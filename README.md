@@ -1,4 +1,4 @@
-# To-Do App
+# To-Do App :heavy_check_mark:
 ## A simple web application written in Python (Django framework)
 
 The program provides the user with the ability to make a to-do list and cross off completed tasks.
