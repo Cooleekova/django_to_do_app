@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect
 from django.views.decorators.http import require_POST
-from django.utils.translation import gettext as _
 
 from .models import Todo
 from .forms import TodoForm
