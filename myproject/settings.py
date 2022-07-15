@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '-taty3pv6rv^^y%6stvmx-u=6%+!l63e@(x86
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = str(os.environ.get('DEBUG')) == '1'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.herokuapp.com']
 if not DEBUG:
     ALLOWED_HOSTS += [os.environ.get('ALLOWED_HOST')]
 
